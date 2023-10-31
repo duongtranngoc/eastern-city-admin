@@ -1,0 +1,135 @@
+.toast-success {
+    background: white !important;
+    color: green;
+
+    &.x-window-default {
+        border: 1px solid green !important;
+        border-radius: 10px;
+    }
+
+    .x-window-header-default-top {
+        padding: 10px 10px 0px 10px;
+        background: white !important;
+        border: none !important;
+
+        .fa-check-circle {
+            color: green !important;
+        }
+
+        .x-title-text {
+            color: green;
+            height: 30px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    .x-window-body-default {
+        word-break: break-all;
+        background: white !important;
+        color: green !important;
+        font-size: 16px !important;
+    }
+}
+
+.toast-info {
+    background: white !important;
+    color: blue;
+
+    &.x-window-default {
+        border: 1px solid blue !important;
+        border-radius: 10px;
+    }
+
+    .x-window-header-default-top {
+        padding: 10px 10px 0px 10px;
+        background: white !important;
+        border: none !important;
+
+        .fa-info-circle {
+            color: blue !important;
+        }
+
+        .x-title-text {
+            color: blue;
+            height: 30px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    .x-window-body-default {
+        word-break: break-all;
+        background: white !important;
+        color: blue !important;
+        font-size: 16px !important;
+    }
+}
+
+.toast-error {
+    background: white !important;
+    color: red;
+
+    &.x-window-default {
+        border: 1px solid red !important;
+        border-radius: 10px;
+    }
+
+    .x-window-header-default-top {
+        padding: 10px 10px 0px 10px;
+        background: white !important;
+        border: none !important;
+
+        .fa-times-circle {
+            color: red !important;
+        }
+
+        .x-title-text {
+            color: red;
+            height: 30px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    .x-window-body-default {
+        word-break: break-all;
+        background: white !important;
+        color: red !important;
+        font-size: 16px !important;
+    }
+}
+
+.toast-warning {
+    background: white;
+    color: orange;
+
+    &.x-window-default {
+        border: 1px solid orange !important;
+        border-radius: 10px;
+    }
+
+    .x-window-header-default-top {
+        padding: 10px 10px 0px 10px;
+        background: white !important;
+        border: none !important;
+
+        .fa-exclamation-circle {
+            color: orange !important;
+        }
+
+        .x-title-text {
+            color: orange;
+            height: 30px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    .x-window-body-default {
+        word-break: break-all;
+        background: white !important;
+        color: orange !important;
+        font-size: 16px !important;
+    }
+}

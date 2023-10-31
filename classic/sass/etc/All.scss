@@ -1,0 +1,140 @@
+@import '../src/extend/Toast.scss';
+@import '../src/extend/Modal.scss';
+@import '../src/extend/Message.scss';
+
+// button css
+.x-btn-default-toolbar-small {
+    border-radius: 5px !important;
+    border-color: #adadad !important;
+}
+
+.x-btn-over {
+    border: 1px solid black !important;
+}
+
+.x-keyboard-mode :focus {
+    outline: none !important;
+}
+
+.button-add {
+    &.x-btn-default-toolbar-small {
+        background: #dfd !important;
+
+        .x-btn-icon-el-default-toolbar-small {
+            color: black !important;
+        }
+
+        .x-btn-inner-default-toolbar-small {
+            color: black !important;
+            line-height: 20px;
+            font-size: 17px !important;
+            font-weight: 600;
+        }
+    }
+}
+
+.button-submit-add {
+    background: #00cd00 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    margin: 0 5px !important;
+
+    .x-btn-inner-default-small {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+}
+
+.button-edit {
+    background: #5a5aff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    margin: 0 5px !important;
+
+    .x-btn-inner-default-small {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+}
+
+.button-return {
+    background: red !important;
+    border: none !important;
+    border-radius: 5px !important;
+    margin: 0 5px !important;
+
+    .x-btn-inner-default-small {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+}
+
+// form css
+.x-form-text-default {
+    border-radius: 5px !important;
+}
+
+.x-form-trigger-default {
+    border-radius: 5px !important;
+}
+
+.x-form-trigger-wrap-default {
+    border-radius: 5px !important;
+}
+
+
+// icon css
+.iconRed {
+    margin: 0 5px;
+    color: red !important;
+}
+
+.iconBlue {
+    margin: 0 5px;
+    color: blue !important;
+}
+
+.iconGreen {
+    margin: 0 5px;
+    color: green !important;
+}
+
+.iconOrange {
+    margin: 0 5px;
+    color: orange !important;
+}
+
+.iconYellow {
+    margin: 0 5px;
+    color: yellow !important;
+}
+
+.iconPink {
+    margin: 0 5px;
+    color: pink !important;
+}
+
+.iconPurple {
+    margin: 0 5px;
+    color: purple !important;
+}
+
+.iconBrown {
+    margin: 0 5px;
+    color: brown !important;
+}
+
+.iconGray {
+    margin: 0 5px;
+    color: gray !important;
+}
+
+.iconBlack {
+    margin: 0 5px;
+    color: black !important;
+}
+
+.iconWhite {
+    margin: 0 5px;
+    color: white !important;
+}

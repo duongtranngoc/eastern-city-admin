@@ -1,0 +1,30 @@
+.delete-confirm-message {
+    border: none !important;
+    border-radius: 10px !important;
+    min-width: max-content !important;
+
+    .x-window-header {
+        &.x-window-header-default {
+            border: none !important;
+            background: red !important;
+        }
+
+        .x-title-text-default {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    .x-message-box-question {
+        color: red;
+    }
+
+    .x-window-text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .x-btn-default-small {
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,16 @@
+.modal-view {
+    border: none !important;
+    border-radius: 10px !important;
+
+    .x-window-header {
+        &.x-window-header-default {
+            border: none !important;
+            background: #5a5aff !important;
+        }
+
+        .x-title-text-default {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+}
